@@ -1,4 +1,4 @@
-//Ota http moduuli
+﻿//Ota http moduuli
 var http = require('http');
 
 console.log('Start');
@@ -23,3 +23,5 @@ var server = http.createServer(function(req, res) {
 	});
 });
 server.listen(8080);
+
+//MOI. BUGITESTI
